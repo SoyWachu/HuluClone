@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Header from "../components/Header";
 
 export default function Home() {
   return (
@@ -6,8 +7,7 @@ export default function Home() {
       <Head>
         <title>Hulu Clone</title>
       </Head>
-
-      <h1>Hola como estas</h1>
+      <Header />
     </div>
   );
 }
